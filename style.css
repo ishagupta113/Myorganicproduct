@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5fff8;
+  color: #2f4f4f;
+  line-height: 1.6;
+}
+
+header {
+  background: #e0f0e3;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #3a5a40;
+}
+
+nav a {
+  margin-left: 1rem;
+  color: #2f4f4f;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: #d0ead7;
+}
+
+.hero h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.cta-button {
+  background: #3a5a40;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+.features {
+  padding: 2rem 1rem;
+  background: #ffffff;
+  text-align: center;
+}
+
+.feature-list {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+.products {
+  padding: 2rem 1rem;
+  background: #f0fff4;
+  text-align: center;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.product {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 250px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+}
+
+.contact {
+  padding: 2rem 1rem;
+  background: #e7f8ed;
+  max-width: 600px;
+  margin: auto;
+}
+
+.contact-form label {
+  display: block;
+  margin: 0.5rem 0 0.2rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+footer {
+  background: #d0e6d2;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
